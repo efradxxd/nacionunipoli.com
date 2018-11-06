@@ -1,0 +1,140 @@
+/*Aplica a todo el documento*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #08A760;
+
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	background:#fff;
+	position: fixed;
+	z-index: 100;
+	box-shadow:1px 1px 5px #000; 
+	-webkit-box-shadow:1px 1px 5px #000;
+	-moz-box-shadow:1px 1px 5px #000;
+	-o-box-shadow:1px 1px 5px #000;   
+}
+
+#logo{
+	padding: 10px 0px 0px 10px;
+}
+#logo h1{
+	color: #6e6e6e;
+	font: bold 25px Verdana;
+}
+
+#abrir_menu{
+	display: none;/*desaparece cuando inicia y aparece cuando se encoge*/
+	float: right;
+	color: #6e6e6e;
+	font-size: 40px;
+	margin-top: -35px;
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+#menu{
+	width: 620px;
+	margin: -25px auto;
+
+	z-index: 1;
+}
+#menu ul a{
+	text-decoration: none;
+	color: #6e6e6e;
+	font: 16px Verdana;
+	padding: 10px;
+	/*background: red;*/
+	/*QUE SE VEA SHIDO CUANDO PASA EL EL MOUSE*/
+	transition: background .6s, color .6s;
+	-webkit-transition: background .6s, color .6s;
+	-moz-transition: background .6s, color .6s;
+	-o-transition: background .6s, color .6s;
+}
+#menu ul a:hover{
+	background:#6e6e6e;
+	color: #f2f2f2;
+}
+#menu div{
+	height: 50px;
+	display: none;
+	z-index: 1;
+}
+#cerrar_menu{
+	float: right;
+	color: #6e6e6e;
+	font-size: 35px;
+	padding: 10px;
+	cursor: pointer;
+	opacity: .6;
+
+}
+#cerrar_menu:hover{
+	opacity: 1;
+}
+#contenedor{
+	/*width: 1024px;*/
+
+	border-radius: 15px;
+	height: 85%;
+	width: 65%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto; 
+	background-color: #f2f2f2;
+	box-shadow:1px 1px 5px 1px #000; 
+	-webkit-box-shadow:1px 1px 5px 1px #000;
+	-moz-box-shadow:1px 1px 5px 1px #000;
+	-o-box-shadow:1px 1px 5px 1px #000;
+}
+#encabezado{
+	position: relative;
+	/*margin-left: auto;
+	margin-right: auto;*/ 
+	/*height: 20%;*/
+	background-color: #f2f2f2;
+	border-radius: 15px;
+}
+#encabezado h1{
+	text-align: center;
+	color: #08A760;
+	font: bold 2em Verdana;
+}
+#encabezado h2{
+	text-align: center;
+	color: #6e6e6e;
+	font: bold 1em Verdana;
+}
+.img_h{
+	width: 100%;
+
+}
+.img_d{
+	width: 55%;
+}
+.parrafo{
+	width: 98%;
+	position: relative;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto; 
+	text-align : justify;
+	font: 1em Verdana;
+}
+.LC:first-letter{
+  font-size:200%;
+  float:left;
+  color:#08A760;
+  font: bold Verdana;
+}
+.titulo{
+	text-align: center;
+	font-size: 200%;
+	color: #08A760;
+	font: bold 2em Verdana;
+}
